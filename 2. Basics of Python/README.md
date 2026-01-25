@@ -1,32 +1,33 @@
-# **EXPERIMENT – 2**
+### **EXPERIMENT – 2**
 ---
 
-## **TITLE**
+#### **TITLE**
 **Study of Python Programming Environment, Data Types, Operators, and Basic Input/Output**
 ---
 
-## **AIM**
+#### **AIM**
 To study the Python programming environment and interface, understand execution modes, comments, variables, data types, operators, and basic input/output operations using a single integrated Python program.
 ---
 
-## **THEORY**
-Python is a high-level, interpreted programming language that supports multiple programming paradigms.  
+#### **THEORY**
+Python is a high-level, interpreted programming language that supports multiple programming paradigms.
+
 A Python program can be executed in **Interactive Mode** or **Script Mode**.
 
 - **Interactive Mode** executes one statement at a time and displays immediate output.
 - **Script Mode** executes a complete program saved in a `.py` file.
 
 Python supports:
-- **Comments** for documentation
-- **Variables** for storing data dynamically
-- **Built-in data types** such as integer, float, string, and boolean
-- **Operators** for arithmetic, relational, logical, assignment, and bitwise operations
-- **Input and Output functions** to interact with users
+- **Comments** for documentation  
+- **Variables** for storing data dynamically  
+- **Built-in data types** such as integer, float, string, and boolean  
+- **Operators** for arithmetic, relational, logical, assignment, and bitwise operations  
+- **Input and Output functions** to interact with users  
 
 This experiment demonstrates all the above concepts in a single consolidated Python program.
 ---
 
-## **PROGRAM (COMBINED CODE)**
+#### **PROGRAM**
 ```python
 # -------------------------------
 # Python Basics Demonstration
@@ -90,6 +91,3 @@ marks = int(input("Enter marks: "))
 print("Student Name:", student_name)
 print("Marks Obtained:", marks)
 
-## **CONCLUSION**
-Thus, the Python programming environment, execution modes, comments, variables, data types, operators, and basic
-input/output operations were successfully studied and implemented using a single integrated Python program.
