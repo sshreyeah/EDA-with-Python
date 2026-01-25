@@ -1,216 +1,95 @@
-**Experiment-2**
+# **EXPERIMENT – 2**
+---
 
-**Title**
+## **TITLE**
+**Study of Python Programming Environment, Data Types, Operators, and Basic Input/Output**
+---
 
-**Python Environment, Data Types, Operators, and Basic Input/Output**
+## **AIM**
+To study the Python programming environment and interface, understand execution modes, comments, variables, data types, operators, and basic input/output operations using a single integrated Python program.
+---
 
-**Aim**
+## **THEORY**
+Python is a high-level, interpreted programming language that supports multiple programming paradigms.  
+A Python program can be executed in **Interactive Mode** or **Script Mode**.
 
-To study the Python programming environment and interface, understand execution modes, variables, data types, operators, and basic input/output operations in Python.
+- **Interactive Mode** executes one statement at a time and displays immediate output.
+- **Script Mode** executes a complete program saved in a `.py` file.
 
-**Objectives**
+Python supports:
+- **Comments** for documentation
+- **Variables** for storing data dynamically
+- **Built-in data types** such as integer, float, string, and boolean
+- **Operators** for arithmetic, relational, logical, assignment, and bitwise operations
+- **Input and Output functions** to interact with users
 
-- To understand the Python programming environment and interface
-- To study Python execution modes
-- To understand comments in Python
-- To learn variables, identifier rules, and data types
-- To study different operators and expressions
-- To understand basic input and output mechanisms
+This experiment demonstrates all the above concepts in a single consolidated Python program.
+---
 
-**Theory**
-
-**1\. Python Environment and Interface**
-
-The Python environment provides tools and interfaces to write, execute, and debug Python programs. Python programs can be executed using different interfaces such as:
-
-- Python Shell
-- Jupyter Notebook
-- Integrated Development Environments (IDEs) like Spyder, PyCharm, and VS Code
-- Cloud-based platforms like Google Colab
-
-The interface allows users to write code, execute instructions, and view results interactively.
-
-**2\. Python Execution Modes**
-
-Python supports two main execution modes:
-
-**a) Interactive Mode**
-
-- Commands are executed one line at a time
-- Immediate output is displayed
-- Useful for testing small code snippets and learning
-
-Examples: Python shell, Jupyter Notebook cells, Google Colab
-
-**b) Script Mode**
-
-- Programs are written in a file and executed as a whole
-- Suitable for developing complete applications
-- Files usually have .py extension
-
-**3\. Comments in Python**
-
-Comments are non-executable statements used to explain code and improve readability.
-
-- **Single-line comments:** Begin with #
-- **Multi-line comments:** Written using triple quotes (""" """)
-
-Comments help in documentation and understanding program logic.
-
-**4\. Variables and Identifiers**
-
-A variable is a named memory location used to store data values.
-
-**Rules for Identifiers:**
-
-- Must start with a letter (A-Z, a-z) or underscore _
-- Cannot start with a digit
-- Case-sensitive
-- Should not use Python keywords
-
-Python uses **dynamic typing**, meaning variables do not require explicit data type declaration.
-
-**5\. Data Types in Python**
-
-Python provides several built-in data types to store different kinds of data.
-
-**Basic Data Types**
-
-- **Integer (int)**: Whole numbers
-- **Floating-point (float)**: Decimal numbers
-- **String (str)**: Sequence of characters
-- **Boolean (bool)**: True or False
-
-The data type of a variable can be identified using the type() function.
-
-**6\. Operators and Expressions**
-
-Operators are symbols used to perform operations on variables and values.
-
-**Types of Operators**
-
-- **Arithmetic Operators:** Used for mathematical calculations  
-    (+, -, \*, /, %)
-- **Relational Operators:** Used for comparison  
-    (>, &lt;, &gt;=, <=, ==, !=)
-- **Logical Operators:** Used to combine conditions  
-    (and, or, not)
-- **Assignment Operators:** Used to assign values  
-    (=, +=, -=, \*=, /=)
-- **Bitwise Operators:** Perform operations at bit level  
-    (&, |, ^, &lt;<, &gt;>)
-
-An **expression** is a combination of operators and operands that produces a result.
-
-**7\. Basic Input and Output Operations**
-
-Input and output operations allow interaction between the user and the program.
-
-- **Input:**  
-    input() function is used to accept input from the user.  
-    Input is treated as a string by default and may require type conversion.
-- **Output:**  
-    print() function is used to display output.  
-    Formatted output can be achieved using commas or formatted strings.
-
-**Conclusion**
-
-Thus, the Python programming environment, execution modes, variables, data types, operators, and basic input/output operations were studied and understood.
-
-### ****Programs****
-
-- **\# Comments**
-
-\# This is a single-line comment
-
-\# Program to demonstrate Python interface and comments
+## **PROGRAM (COMBINED CODE)**
+```python
+# -------------------------------
+# Python Basics Demonstration
+# -------------------------------
 
 """
-
-This is a multi-line comment (docstring).
-
-Python supports interactive and script modes.
-
+This program demonstrates:
+- Comments
+- Variables and data types
+- Operators
+- Input and Output
 """
 
-print("Welcome to Python Programming")
+print("WELCOME TO PYTHON PROGRAMMING")
 
-print("This program demonstrates comments and execution modes")
-
-- **\# Variable declaration**
-
-student_name = "Snehal"
-
+# Variables and Data Types
+name = "Snehal"
 age = 45
-
 height = 5.3
-
 is_faculty = True
 
-\# Display data types
+print("\n--- Data Types ---")
+print("Name:", name, type(name))
+print("Age:", age, type(age))
+print("Height:", height, type(height))
+print("Faculty:", is_faculty, type(is_faculty))
 
-print("Name:", student_name, "Type:", type(student_name))
-
-print("Age:", age, "Type:", type(age))
-
-print("Height:", height, "Type:", type(height))
-
-print("Faculty Status:", is_faculty, "Type:", type(is_faculty))
-
-- **Arithmetic, relational, logical, assignment, and bitwise operators**
-
+# Operators
 a = 10
-
 b = 5
 
-\# Arithmetic Operators
-
+print("\n--- Arithmetic Operators ---")
 print("Addition:", a + b)
-
 print("Subtraction:", a - b)
-
-print("Multiplication:", a \* b)
-
+print("Multiplication:", a * b)
 print("Division:", a / b)
 
-\# Relational Operators
-
+print("\n--- Relational Operators ---")
 print("a > b:", a > b)
-
 print("a == b:", a == b)
 
-\# Logical Operators
-
+print("\n--- Logical Operators ---")
 print("AND:", a > 5 and b > 2)
-
 print("OR:", a > 20 or b > 2)
-
 print("NOT:", not(a > b))
 
-\# Assignment Operators
-
+print("\n--- Assignment Operator ---")
 c = a
-
 c += b
+print("c =", c)
 
-print("Assignment Result:", c)
-
-\# Bitwise Operators
-
+print("\n--- Bitwise Operators ---")
 print("Bitwise AND:", a & b)
-
 print("Bitwise OR:", a | b)
 
-- **Input and display formatted output using input() and print()**
+# Input and Output
+print("\n--- Input and Output ---")
+student_name = input("Enter student name: ")
+marks = int(input("Enter marks: "))
 
-\# Input from user
-
-name = input("Enter your name: ")
-
-marks = int(input("Enter your marks: "))
-
-\# Output using formatted print
-
-print("Student Name:", name)
-
+print("Student Name:", student_name)
 print("Marks Obtained:", marks)
+
+## **CONCLUSION**
+Thus, the Python programming environment, execution modes, comments, variables, data types, operators, and basic
+input/output operations were successfully studied and implemented using a single integrated Python program.
