@@ -1,186 +1,99 @@
-**Experiment-4**
+# Experiment–4  
+## Tuples in Python: Creation, Access, and Operations
 
-**Title**
+### Aim
+To understand Python tuples and perform operations such as creation, indexing, slicing, unpacking, and using built-in functions.
 
-**Tuples in Python: Creation, Access, and Operations**
+### Objectives
+- Understand the concept of tuples in Python  
+- Study characteristics and advantages of tuples  
+- Perform indexing and slicing operations  
+- Apply built-in tuple functions  
+- Understand the immutability of tuples  
 
-**Aim**
+### Theory
 
-To understand Python tuples and perform operations such as creation, indexing, slicing, and use of built-in functions.
+#### 1. Introduction to Tuples
+A **tuple** is an ordered collection of elements in Python, similar to a list, but **immutable** in nature. Once created, the elements of a tuple cannot be modified. Tuples are written using parentheses `()` and elements are separated by commas.
 
-**Objectives**
+**Example:**  
+`(10, 20, 30)`
 
-- To understand the concept of tuples in Python
-- To study characteristics and advantages of tuples
-- To perform indexing and slicing on tuples
-- To apply built-in tuple functions
-- To understand immutability of tuples
+#### 2. Characteristics of Tuples
+Tuples have the following properties:
+- **Ordered:** Elements maintain insertion order  
+- **Indexed:** Index starts from 0  
+- **Immutable:** Elements cannot be changed after creation  
+- **Allows Duplicates:** Same value can appear multiple times  
+- **Heterogeneous:** Can store different data types  
 
-**Theory**
+#### 3. Uses and Advantages of Tuples
+Tuples are preferred when:
+- Data should not be modified (data integrity)  
+- Faster access is required compared to lists  
+- Representing fixed data such as coordinates, days of the week, or database records  
 
-**1\. Introduction to Tuples**
+#### 4. Creating Tuples
+Tuples can be created in multiple ways:
+- Using parentheses  
+- Without parentheses (tuple packing)  
+- Using the `tuple()` constructor  
 
-A **tuple** is an ordered collection of elements in Python, similar to a list, but **immutable** in nature. Tuples are written using **parentheses ( )** and elements are separated by commas.
+**Special Case:**  
+A single-element tuple must include a trailing comma:  
+`(10,)`
 
-Example:
+#### 5. Indexing in Tuples
+Tuple elements can be accessed using index numbers.
+- **Positive indexing:** Left to right (0, 1, 2, …)  
+- **Negative indexing:** Right to left (-1, -2, …)  
 
-(10, 20, 30)
+Indexing is used to retrieve specific elements from a tuple.
 
-**2\. Characteristics of Tuples**
+#### 6. Slicing in Tuples
+Slicing extracts a portion of a tuple and returns a new tuple.
 
-- Ordered
-- Indexed
-- Immutable (cannot be changed after creation)
-- Allows duplicate values
-- Can store heterogeneous data types
+**Syntax:**  
+`tuple_name[start : end : step]`
 
-**3\. Why Tuples are Used**
+- `start` – starting index (included)  
+- `end` – ending index (excluded)  
+- `step` – interval between elements  
 
-- Faster than lists
-- Data integrity (values cannot be modified)
-- Used for fixed data such as coordinates, days of week, database records
+Slicing does not modify the original tuple.
 
-**4\. Creating Tuples**
+#### 7. Immutability of Tuples
+Tuples are immutable, meaning:
+- Elements cannot be added  
+- Elements cannot be removed  
+- Elements cannot be updated  
 
-Tuples can be created:
+Any attempt to modify a tuple results in an error.
 
-- With parentheses
-- Without parentheses (tuple packing)
-- Using the tuple() constructor
+#### 8. Built-in Functions for Tuples
+Common functions used with tuples include:
 
-Special cases:
+| Function | Description |
+|--------|-------------|
+| `len()` | Returns number of elements |
+| `max()` | Returns maximum value |
+| `min()` | Returns minimum value |
+| `sum()` | Returns sum of elements |
+| `count()` | Counts occurrences of an element |
+| `index()` | Returns index of an element |
 
-- Single element tuple must have a trailing comma  
-    (10,)
+#### 9. Difference Between List and Tuple
 
-**5\. Indexing in Tuples**
-
-Tuple elements are accessed using **index numbers**, starting from 0.
-
-Both:
-
-- **Positive indexing**
-- **Negative indexing**
-
-are supported.
-
-**6\. Slicing in Tuples**
-
-Slicing is used to extract a portion of a tuple.
-
-**General Syntax:**
-
-tuple_name\[start : end : step\]
-
-### Meaning of each part
-
-- **start** → index to begin slicing (included)
-- **end** → index to stop slicing (excluded)
-- **step** → gap between elements (optional)
-
-**7\. Immutability of Tuples**
-
-Once a tuple is created:
-
-- Elements cannot be added
-- Elements cannot be removed
-- Elements cannot be updated
-
-Any attempt to modify results in an error.
-
-**8\. Built-in Functions for Tuples**
-
-| **Function** | **Description** |
-| --- | --- |
-| len() | Number of elements |
-| max() | Maximum value |
-| min() | Minimum value |
-| sum() | Sum of elements |
-| count() | Count occurrences |
-| index() | Find index of element |
-
-**9\. Difference Between List and Tuple**
-
-| **List** | **Tuple** |
-| --- | --- |
+| List | Tuple |
+|-----|-------|
 | Mutable | Immutable |
-| Uses \[ \] | Uses ( ) |
+| Uses `[ ]` | Uses `( )` |
 | Slower | Faster |
 | Dynamic | Fixed |
 
-## ****Conclusion****
+### Programs Included
+- Student exam result using tuple unpacking  
+- Employee attendance analysis using tuple methods  
 
-Thus, Python tuples were studied and operations such as creation, indexing, slicing, packing, unpacking, and built-in functions were successfully implemented.
-
-Problem Statements:
-
-1\. A student's exam result is stored in a tuple containing three fixed fields:
-
-Subject name, marks obtained, and grade.
-
-Write a Python program to:
-
-- Store the exam result using a tuple.
-- Unpack the tuple elements into separate variables.
-- Display the subject, marks, and grade.
-- Check whether the student has scored 75 or more marks and print "Distinction" if the condition is satisfied.
-
-\# Store exam result in a tuple
-
-result = ("Mathematics", 82, "A")
-
-\# Unpacking the tuple
-
-subject, marks, grade = result
-
-\# Display the details
-
-print("Subject:", subject)
-
-print("Marks:", marks)
-
-print("Grade:", grade)
-
-\# Check for distinction
-
-if marks >= 75:
-
-print("Distinction")
-
-2\. An organization records an employee's daily attendance for a week using a tuple, where:
-
-"P" represents Present, "A" represents Absent
-
-Write a Python program to:
-
-- Store the attendance record in a tuple.
-- Count and display the total number of present days.
-- Count and display the total number of absent days.
-- Check whether the employee was absent at least once
-- during the recorded period and display an appropriate message.
-
-\# Store attendance record for a week
-
-attendance = ("P", "P", "A", "P", "P", "P", "P")
-
-\# Count present and absent days
-
-present_days = attendance.count("P")
-
-absent_days = attendance.count("A")
-
-\# Display counts
-
-print("Total Present Days:", present_days)
-
-print("Total Absent Days:", absent_days)
-
-\# Check if employee was absent at least once
-
-if absent_days > 0:
-
-print("Employee was absent at least once during the week")
-
-else:
-
-print("Employee was present every day")
+### Conclusion
+Python tuples provide a secure and efficient way to store fixed data. Their immutability, fast access, and support for indexing, slicing, and built-in functions make them suitable for representing constant and structured data.
