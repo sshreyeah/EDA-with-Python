@@ -1,14 +1,14 @@
-#Experiment - 5
+# **Experiment - 5**
 
-##Title
+## **Title**
 
 **Implementation of Set and Dictionary in Python**
 
-##Aim
+## **Aim**
 
 To study and implement set data structure in Python and perform various set and Dictionary operations.
 
-##Objectives
+## **Objectives**
 
 - To understand the concept of sets
 - To perform set creation and basic operations
@@ -17,12 +17,12 @@ To study and implement set data structure in Python and perform various set and 
 - To perform insertion, deletion, and access of data
 - To apply dictionary methods
 
-##Theory on Sets
+## **Theory on Sets**
 A set in Python is an unordered collection of unique elements. Sets are defined using curly braces {} or the set() constructor. Since sets do not allow duplicate values, they are useful for handling distinct data efficiently.
 
 Sets are mutable, meaning elements can be added or removed after creation. However, sets do not support indexing due to their unordered nature.
 
-##Characteristics of Set
+## **Characteristics of Set**
 
 - Unordered
 - No duplicate elements
@@ -31,7 +31,7 @@ Sets are mutable, meaning elements can be added or removed after creation. Howev
 
 Sets are commonly used in real-life scenarios such as **removing duplicates**, **membership testing**, and **mathematical operations**.
 
-##Set Operations
+## **Set Operations**
 
 - Union
 - Intersection
@@ -80,7 +80,7 @@ print("Updated Set:", s)
 - Membership testing
 - Mathematical computations
 
-##Theory on dictionary
+## **Theory on dictionary**
 
 A dictionary is an unordered collection of key–value pairs where each key must be unique. Dictionaries are defined using curly braces with keys and values separated by a colon.
 Dictionaries are mutable and allow insertion, deletion, and modification of data. Values can be accessed quickly using their corresponding keys, making dictionaries efficient for data storage and retrieval.
@@ -92,7 +92,7 @@ dictionary = {key: value}
 Dictionaries are widely used in real-life applications such as **student records**, **phone books**, and **configuration data**.
 
 
-##Characteristics of Dictionary
+## **Characteristics of Dictionary**
 
 - Key-value based
 - Mutable
@@ -148,5 +148,5 @@ print(key, ":", value)
 - Database records
 - Configuration files
 
-##Conclusion
+## **Conclusion**
 Sets efficiently manage unique data and support mathematical operations, while dictionaries provide fast and organized storage of data using key–value pairs, making both structures essential in Python programming.
