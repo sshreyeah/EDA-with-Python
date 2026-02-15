@@ -45,11 +45,9 @@ Indentation plays an important role in defining the scope of loops.
 * Nested loops
 * Loop control statements
 
----
 
 # Programs
 
----
 
 ## Program 1: Simple for Loop
 
@@ -58,7 +56,6 @@ for i in range(1, 6):
     print(i)
 ```
 
----
 
 ## Program 2: for Loop with List
 
@@ -69,7 +66,6 @@ for num in numbers:
     print(num)
 ```
 
----
 
 ## Program 3: while Loop
 
@@ -81,7 +77,6 @@ while i <= 5:
     i += 1
 ```
 
----
 
 ## Program 4: Nested Loop (Right-Angled Triangle)
 
@@ -91,8 +86,6 @@ for i in range(1, 6):
         print("*", end="")
     print()
 ```
-
----
 
 ## Program 5: Loop Control Statements
 
