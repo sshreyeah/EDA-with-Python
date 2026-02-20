@@ -1,5 +1,4 @@
-# Experiment – 8 
-# Study of NumPy Library
+# Experiment – 8  Study of NumPy Library
 
 ## Aim
 
