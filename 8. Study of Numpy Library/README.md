@@ -216,4 +216,3 @@ print("Reshaped Array:\n", reshaped)
 
 The NumPy library plays a vital role in numerical and scientific computing in Python. It provides powerful tools for handling arrays, performing mathematical operations, reshaping data, and implementing efficient computations. Through this experiment, we gained practical knowledge of array creation, manipulation, and application of NumPy functions in real-world scenarios.
 
-
