@@ -46,7 +46,70 @@ Indentation plays an important role in defining the scope of loops.
 * Loop control statements
 
 
-# Programs
+# **Loop Algorithms**
+
+## **Algorithm 1: Print Numbers from 1 to 5 (Using for Loop)**
+
+1. Start
+2. Use `range(1, 6)` to generate numbers from 1 to 5
+3. Repeat for each number in the range
+4. Print the number
+5. Stop
+
+---
+
+## **Algorithm 2: Print Elements of a List**
+
+1. Start
+2. Create a list of numbers
+3. Repeat for each element in the list
+4. Print the element
+5. Stop
+
+---
+
+## **Algorithm 3: Print Numbers from 1 to 5 (Using while Loop)**
+
+1. Start
+2. Initialize variable `i = 1`
+3. Check if `i <= 5`
+4. If true, print `i`
+5. Increment `i` by 1
+6. Repeat steps 3–5 until condition becomes false
+7. Stop
+
+---
+
+## **Algorithm 4: Print Right-Angled Triangle Pattern**
+
+1. Start
+2. Use outer loop from 1 to 5
+3. For each iteration of outer loop, run inner loop
+4. Print `*` equal to current row number
+5. Move to next line
+6. Stop
+
+---
+
+## **Algorithm 5: Using break Statement**
+
+1. Start
+2. Run loop from 1 to 5
+3. Check if number equals 3
+4. If yes, terminate the loop using `break`
+5. Otherwise, print the number
+6. Stop
+
+---
+
+## **Algorithm 6: Using continue Statement**
+
+1. Start
+2. Run loop from 1 to 5
+3. Check if number equals 3
+4. If yes, skip current iteration using `continue`
+5. Otherwise, print the number
+6. Stop
 
 
 ## Program 1: Simple for Loop
