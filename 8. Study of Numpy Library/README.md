@@ -1,68 +1,140 @@
-# Experiment – 8: Study of NumPy Library
+# Experiment 8– Study of NumPy Library
 
 ## Aim
 
 To study the NumPy library in Python and implement various numerical operations using NumPy arrays and built-in functions.
 
+---
 
 ## Objectives
 
 * To understand the concept of NumPy arrays
 * To create and manipulate one-dimensional and multi-dimensional arrays
 * To perform mathematical and statistical operations using NumPy
-* To understand array indexing, slicing, and reshaping
+* To understand array indexing, slicing, reshaping, and broadcasting
 * To apply NumPy functions in real-life numerical computations
 
+---
 
 ## Introduction to NumPy
 
-NumPy (Numerical Python) is a powerful Python library used for numerical computing. It provides support for large, multi-dimensional arrays and matrices, along with a wide collection of mathematical functions to operate on these arrays efficiently.
+NumPy (Numerical Python) is a fundamental library in Python used for scientific computing and numerical analysis. It provides support for large, multi-dimensional arrays and matrices along with a collection of high-level mathematical functions to operate on these arrays efficiently.
 
 NumPy is widely used in:
 
 * Data Science
 * Machine Learning
-* Scientific Computing
 * Artificial Intelligence
-* Data Analysis
+* Scientific Research
+* Data Analytics
+* Engineering computations
 
-It is faster and more efficient than Python lists for numerical operations because it is implemented in C and optimized for performance.
+It is faster and more memory-efficient than Python lists because it is implemented in C and performs operations using optimized vectorized code.
 
+---
 
 ## Theory
 
-### 1. NumPy Arrays
+### 1. NumPy ndarray (N-Dimensional Array)
 
-The core object of NumPy is the **ndarray (N-dimensional array)**. It is a grid of values, all of the same type, indexed by a tuple of non-negative integers.
+The core data structure in NumPy is the **ndarray**. It represents a grid of values, all of the same data type, and is indexed using integers.
+
+Key characteristics of ndarray:
+
+* Homogeneous data type (all elements are of the same type)
+* Fixed size once created
+* Faster numerical operations compared to lists
+* Supports vectorized operations
 
 Example:
 
 ```python
 import numpy as np
-
 arr = np.array([1, 2, 3, 4])
 ```
 
+---
 
-### 2. Types of Arrays
+### 2. Array Attributes
 
-* **1-D Array** – Single row of elements
-* **2-D Array** – Matrix (rows and columns)
-* **Multi-Dimensional Array** – Higher dimensional arrays
+NumPy arrays have several important attributes:
+
+* `arr.ndim` → Number of dimensions
+* `arr.shape` → Shape of the array (rows, columns)
+* `arr.size` → Total number of elements
+* `arr.dtype` → Data type of elements
+
+These attributes help in understanding and manipulating the structure of arrays.
 
 ---
 
-### 3. Important NumPy Functions
+### 3. Array Creation Methods
 
-* `np.array()` – Create an array
-* `np.zeros()` – Create array filled with zeros
-* `np.ones()` – Create array filled with ones
-* `np.arange()` – Create array with a range of values
-* `np.reshape()` – Change the shape of array
-* `np.sum()` – Find sum of elements
-* `np.mean()` – Calculate mean
-* `np.max()` / `np.min()` – Find maximum/minimum value
+NumPy provides multiple ways to create arrays:
 
+* `np.array()` → Create array from list/tuple
+* `np.zeros()` → Create array filled with zeros
+* `np.ones()` → Create array filled with ones
+* `np.arange()` → Create array within a range
+* `np.linspace()` → Create evenly spaced values
+* `np.random.rand()` → Generate random values
+
+---
+
+### 4. Indexing and Slicing
+
+NumPy supports powerful indexing and slicing techniques:
+
+* Access single elements
+* Extract rows and columns
+* Slice specific portions of arrays
+
+Example:
+
+```python
+arr = np.array([10, 20, 30, 40])
+print(arr[1:3])
+```
+
+---
+
+### 5. Mathematical Operations
+
+NumPy allows element-wise operations without using loops:
+
+* Addition, subtraction, multiplication, division
+* Square root, power, exponential functions
+* Trigonometric functions
+
+Example:
+
+```python
+arr = np.array([1, 2, 3])
+print(arr * 2)
+```
+
+---
+
+### 6. Broadcasting
+
+Broadcasting allows NumPy to perform operations on arrays of different shapes. It automatically adjusts smaller arrays to match the shape of larger arrays during operations.
+
+This feature eliminates the need for manual looping and improves efficiency.
+
+---
+
+### 7. Reshaping Arrays
+
+Using `reshape()`, arrays can be converted into different dimensions without changing the data.
+
+Example:
+
+```python
+arr = np.arange(6)
+reshaped = arr.reshape(2, 3)
+```
+
+---
 
 ## Sample Programs
 
@@ -75,6 +147,7 @@ arr = np.array([10, 20, 30, 40])
 print("Array:", arr)
 ```
 
+---
 
 ### Program 2: Creating a 2-D Array
 
@@ -85,8 +158,9 @@ matrix = np.array([[1, 2, 3], [4, 5, 6]])
 print("2D Array:\n", matrix)
 ```
 
+---
 
-### Program 3: Array Operations
+### Program 3: Performing Array Operations
 
 ```python
 import numpy as np
@@ -96,8 +170,10 @@ arr = np.array([1, 2, 3, 4])
 print("Sum:", np.sum(arr))
 print("Mean:", np.mean(arr))
 print("Maximum:", np.max(arr))
+print("Minimum:", np.min(arr))
 ```
 
+---
 
 ### Program 4: Reshaping an Array
 
@@ -111,6 +187,7 @@ print("Original Array:", arr)
 print("Reshaped Array:\n", reshaped)
 ```
 
+---
 
 ## Applications of NumPy
 
@@ -120,17 +197,23 @@ print("Reshaped Array:\n", reshaped)
 * Image processing
 * Machine learning model development
 * Handling large datasets efficiently
+* Scientific simulations
+
+---
 
 ## Advantages of NumPy
 
 * Faster execution compared to Python lists
 * Efficient memory usage
 * Supports multi-dimensional arrays
-* Provides built-in mathematical functions
-* Easy integration with other libraries like Pandas and Matplotlib
+* Built-in optimized mathematical functions
+* Enables vectorized operations
+* Easily integrates with libraries like Pandas, Matplotlib, and Scikit-learn
 
 ---
 
 ## Conclusion
 
-The NumPy library is an essential tool for numerical and scientific computing in Python. It simplifies complex mathematical operations and improves computational efficiency. Through this experiment, we understood how to create arrays, perform operations, reshape data, and apply statistical functions using NumPy.
+The NumPy library plays a vital role in numerical and scientific computing in Python. It provides powerful tools for handling arrays, performing mathematical operations, reshaping data, and implementing efficient computations. Through this experiment, we gained practical knowledge of array creation, manipulation, and application of NumPy functions in real-world scenarios.
+
+
