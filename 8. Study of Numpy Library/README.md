@@ -134,7 +134,163 @@ arr = np.arange(6)
 reshaped = arr.reshape(2, 3)
 ```
 
+## Algorithm & Flowchart Additions 
+
+### Program 1: Creating a NumPy Array
+
+### Algorithm
+
+1. Start
+2. Import NumPy library
+3. Create a NumPy array using `np.array()`
+4. Store the array in a variable
+5. Display the array
+6. Stop
+
+### Flowchart
+
+```
+Start
+  ↓
+Import NumPy
+  ↓
+Create Array using np.array()
+  ↓
+Store in variable
+  ↓
+Display Array
+  ↓
+Stop
+```
+
 ---
+
+## Program 2: Creating a 2-D Array
+
+### Algorithm
+
+1. Start
+2. Import NumPy library
+3. Create a two-dimensional array using nested lists inside `np.array()`
+4. Store it in a variable
+5. Display the 2D array
+6. Stop
+
+### Flowchart
+
+```
+Start
+  ↓
+Import NumPy
+  ↓
+Create 2D Array
+  ↓
+Store in variable
+  ↓
+Display Matrix
+  ↓
+Stop
+```
+
+---
+
+## Program 3: Performing Array Operations
+
+### Algorithm
+
+1. Start
+2. Import NumPy library
+3. Create a NumPy array
+4. Perform the following operations:
+
+   * Calculate sum using `np.sum()`
+   * Calculate mean using `np.mean()`
+   * Find maximum using `np.max()`
+   * Find minimum using `np.min()`
+5. Display all results
+6. Stop
+
+### Flowchart
+
+```
+Start
+  ↓
+Import NumPy
+  ↓
+Create Array
+  ↓
+Perform Statistical Operations
+  ↓
+Display Results
+  ↓
+Stop
+```
+
+---
+
+## Program 4: Reshaping an Array
+
+### Algorithm
+
+1. Start
+2. Import NumPy library
+3. Create a one-dimensional array using `np.arange()`
+4. Apply `reshape()` method to convert it into a multi-dimensional array
+5. Store the reshaped array
+6. Display both original and reshaped arrays
+7. Stop
+
+### Flowchart
+
+```
+Start
+  ↓
+Import NumPy
+  ↓
+Create 1D Array
+  ↓
+Apply reshape()
+  ↓
+Store Reshaped Array
+  ↓
+Display Both Arrays
+  ↓
+Stop
+```
+
+---
+
+## Additional Algorithm for Broadcasting (Theory Section)
+
+### Algorithm
+
+1. Start
+2. Create two NumPy arrays of different but compatible shapes
+3. Check broadcasting compatibility rules
+4. NumPy automatically adjusts the smaller array
+5. Perform element-wise operation
+6. Display the result
+7. Stop
+
+---
+
+## General Flow of a NumPy Program
+
+You may include this as an overall flow of execution:
+
+```
+Start
+  ↓
+Import NumPy
+  ↓
+Create Array
+  ↓
+Perform Operation (Indexing / Mathematical / Reshaping)
+  ↓
+Display Output
+  ↓
+Stop
+```
 
 ## Sample Programs
 
