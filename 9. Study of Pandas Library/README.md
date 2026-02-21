@@ -125,11 +125,6 @@ Pandas allows quick statistical calculations:
 
 These functions help in understanding the dataset efficiently.
 
----
-Below is the formal addition of **Algorithms and Flowcharts** for **Experiment 9 – Study of Pandas Library**. You can directly insert these under the respective program sections in your record file.
-
----
-
 ## Algorithm & Flowchart Additions 
 
 ### Program 1: Creating a Series
@@ -260,8 +255,6 @@ Stop
 
 ## Additional Algorithm: Handling Missing Data
 
-You may add this under the theory section.
-
 ### Algorithm
 
 1. Start
@@ -278,8 +271,6 @@ You may add this under the theory section.
 ---
 
 ## General Flow of a Pandas Program
-
-You may include this as an overall execution flow:
 
 ```id="p9genf"
 Start
