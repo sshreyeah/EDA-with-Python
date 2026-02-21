@@ -260,38 +260,6 @@ Stop
 
 ---
 
-## Additional Algorithm for Broadcasting (Theory Section)
-
-### Algorithm
-
-1. Start
-2. Create two NumPy arrays of different but compatible shapes
-3. Check broadcasting compatibility rules
-4. NumPy automatically adjusts the smaller array
-5. Perform element-wise operation
-6. Display the result
-7. Stop
-
----
-
-## General Flow of a NumPy Program
-
-You may include this as an overall flow of execution:
-
-```
-Start
-  ↓
-Import NumPy
-  ↓
-Create Array
-  ↓
-Perform Operation (Indexing / Mathematical / Reshaping)
-  ↓
-Display Output
-  ↓
-Stop
-```
-
 ## Sample Programs
 
 ### Program 1: Creating a NumPy Array
