@@ -1,12 +1,10 @@
 # Experiment 9- Study of Pandas Library
 
----
 
 ## Aim
 
 To study the Pandas library in Python and perform data manipulation and analysis using Series and DataFrame structures.
 
----
 
 ## Objectives
 
@@ -17,7 +15,6 @@ To study the Pandas library in Python and perform data manipulation and analysis
 * To perform basic statistical analysis using Pandas
 * To understand real-world applications of Pandas in data analysis
 
----
 
 ## Introduction to Pandas
 
@@ -34,7 +31,6 @@ Pandas is widely used in:
 
 It is built on top of NumPy and allows fast operations on structured datasets.
 
----
 
 ## Theory
 
@@ -125,169 +121,6 @@ Pandas allows quick statistical calculations:
 
 These functions help in understanding the dataset efficiently.
 
-## Algorithm & Flowchart Additions 
-
-### Program 1: Creating a Series
-
-### Algorithm
-
-1. Start
-2. Import Pandas library
-3. Create a Series using `pd.Series()`
-4. Store it in a variable
-5. Display the Series
-6. Stop
-
-### Flowchart
-
-```id="p9s1f1"
-Start
-  ↓
-Import Pandas
-  ↓
-Create Series using pd.Series()
-  ↓
-Store in variable
-  ↓
-Display Series
-  ↓
-Stop
-```
-
----
-
-## Program 2: Creating a DataFrame
-
-### Algorithm
-
-1. Start
-2. Import Pandas library
-3. Create a dictionary containing data
-4. Convert dictionary into DataFrame using `pd.DataFrame()`
-5. Store it in a variable
-6. Display the DataFrame
-7. Stop
-
-### Flowchart
-
-```id="p9s2f1"
-Start
-  ↓
-Import Pandas
-  ↓
-Create Dictionary of Data
-  ↓
-Convert into DataFrame
-  ↓
-Store in variable
-  ↓
-Display DataFrame
-  ↓
-Stop
-```
-
----
-
-## Program 3: Data Selection
-
-### Algorithm
-
-1. Start
-2. Import Pandas library
-3. Create a DataFrame
-4. Select a column using `df["column_name"]`
-5. Select a row using `df.loc[]`
-6. Display selected data
-7. Stop
-
-### Flowchart
-
-```id="p9s3f1"
-Start
-  ↓
-Import Pandas
-  ↓
-Create DataFrame
-  ↓
-Select Column
-  ↓
-Select Row using loc[]
-  ↓
-Display Selected Data
-  ↓
-Stop
-```
-
----
-
-## Program 4: Statistical Analysis
-
-### Algorithm
-
-1. Start
-2. Import Pandas library
-3. Create a DataFrame
-4. Apply statistical functions such as:
-
-   * `describe()`
-   * `mean()`
-   * `sum()`
-5. Display results
-6. Stop
-
-### Flowchart
-
-```id="p9s4f1"
-Start
-  ↓
-Import Pandas
-  ↓
-Create DataFrame
-  ↓
-Apply Statistical Functions
-  ↓
-Display Results
-  ↓
-Stop
-```
-
----
-
-## Additional Algorithm: Handling Missing Data
-
-### Algorithm
-
-1. Start
-2. Import Pandas library
-3. Create or load a dataset
-4. Check for missing values using `isnull()`
-5. Handle missing values using:
-
-   * `dropna()` to remove missing data
-   * `fillna()` to replace missing data
-6. Display updated dataset
-7. Stop
-
----
-
-## General Flow of a Pandas Program
-
-```id="p9genf"
-Start
-  ↓
-Import Pandas
-  ↓
-Create / Load Dataset
-  ↓
-Perform Data Manipulation
-  ↓
-Apply Analysis or Statistics
-  ↓
-Display Output
-  ↓
-Stop
-```
-
 ## Sample Programs
 
 ### Program 1: Creating a Series
@@ -299,7 +132,6 @@ series = pd.Series([5, 10, 15, 20])
 print(series)
 ```
 
----
 
 ### Program 2: Creating a DataFrame
 
@@ -315,7 +147,6 @@ df = pd.DataFrame(data)
 print(df)
 ```
 
----
 
 ### Program 3: Data Selection
 
@@ -324,7 +155,6 @@ print(df["Name"])
 print(df.loc[0])
 ```
 
----
 
 ### Program 4: Statistical Analysis
 
@@ -332,7 +162,6 @@ print(df.loc[0])
 print(df.describe())
 ```
 
----
 
 ## Applications of Pandas
 
@@ -343,7 +172,6 @@ print(df.describe())
 * Handling CSV and Excel files
 * Large dataset analysis
 
----
 
 ## Advantages of Pandas
 
@@ -353,7 +181,6 @@ print(df.describe())
 * Integration with NumPy and Matplotlib
 * Simplifies complex data operations
 
----
 
 ## Conclusion
 
