@@ -5,7 +5,6 @@
 
 To understand the process of creating datasets manually and loading external datasets using the Pandas library in Python for data analysis.
 
----
 
 ## Objectives
 
@@ -16,8 +15,6 @@ To understand the process of creating datasets manually and loading external dat
 * To load datasets from CSV and Excel files
 * To inspect and analyze datasets using Pandas functions
 * To perform basic data manipulation operations
-
----
 
 ## Introduction
 
@@ -32,7 +29,6 @@ Pandas simplifies working with structured data using its primary data structure:
 
 * **DataFrame** – A two-dimensional labeled table with rows and columns
 
----
 
 ## Theory
 
