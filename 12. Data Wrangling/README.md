@@ -145,52 +145,49 @@ pd.merge(df1, df2, on='ID')
 ```
 
 ---
-
 ## **Algorithms**
 
-### **Algorithm 1: Handling Missing Values**
+Algorithm 1: Handling Missing Values
 
 Start
-Import Pandas library
-Load dataset
-Check for missing values using `isnull()`
-Handle missing values using `dropna()` or `fillna()`
-Display cleaned dataset
+→ Import Pandas library
+→ Load dataset into DataFrame
+→ Check for missing values using isnull()
+→ Analyze missing data pattern
+→ Handle missing values using dropna() or fillna()
+→ Display cleaned dataset
 Stop
 
----
-
-### **Algorithm 2: Removing Duplicates**
+Algorithm 2: Removing Duplicates
 
 Start
-Load dataset
-Check duplicate rows using `duplicated()`
-Remove duplicates using `drop_duplicates()`
-Display dataset
+→ Load dataset into DataFrame
+→ Identify duplicate rows using duplicated()
+→ Remove duplicates using drop_duplicates()
+→ Verify dataset uniqueness
+→ Display updated dataset
 Stop
 
----
-
-### **Algorithm 3: Data Transformation**
+Algorithm 3: Data Transformation
 
 Start
-Load dataset
-Select required columns
-Apply transformations (type conversion, new columns)
-Display updated dataset
+→ Load dataset
+→ Select relevant columns
+→ Convert data types if required
+→ Create new columns using operations
+→ Apply transformations
+→ Display updated dataset
 Stop
 
----
-
-### **Algorithm 4: Filtering and Sorting Data**
+Algorithm 4: Filtering and Sorting Data
 
 Start
-Load dataset
-Apply filtering condition
-Sort data using `sort_values()`
-Display results
+→ Load dataset
+→ Apply filtering conditions
+→ Extract required subset of data
+→ Sort data using sort_values()
+→ Display results
 Stop
-
 ---
 
 ## **Sample Code Snippets**
