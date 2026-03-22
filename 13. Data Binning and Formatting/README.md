@@ -1,7 +1,5 @@
 # **Experiment 13 – Data Binning and Formatting Using Python**
 
----
-
 ## **Aim**
 
 To perform data binning and formatting using Python and the Pandas library in order to organize continuous data into discrete intervals and improve the readability and presentation of datasets.
