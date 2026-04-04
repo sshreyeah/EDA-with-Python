@@ -24,13 +24,13 @@ Two important preprocessing techniques are:
 
 ## Libraries Used
 
-Pandas
+Pandas:
 Used for data manipulation and handling tabular data through DataFrames.
 
-NumPy
+NumPy:
 Provides numerical operations such as mean, standard deviation, and array calculations.
 
-Scikit-learn
+Scikit-learn:
 Provides preprocessing tools like LabelEncoder for converting categorical values into numbers.
 
 ---
@@ -39,32 +39,32 @@ Provides preprocessing tools like LabelEncoder for converting categorical values
 
 ### Part A: Data Normalization
 
-Min-Max Normalization
+Min-Max Normalization:
 Rescales values to a fixed range between 0 and 1.
 Formula: (x - min) / (max - min)
 
-Z-Score Normalization
+Z-Score Normalization:
 Standardizes data to have mean 0 and standard deviation 1.
 Formula: (x - mean) / standard deviation
 
-Decimal Scaling
+Decimal Scaling:
 Scales values by dividing them by a power of 10.
 Formula: x / (10^k)
 
-Multi-column normalization
+Multi-column normalization:
 Applies normalization to multiple columns simultaneously using vectorized operations.
 
 ---
 
 ### Part B: Encoding Categorical Variables
 
-Label Encoding
+Label Encoding:
 Assigns a unique integer value to each category. Suitable for binary or ordered categories.
 
-One-Hot Encoding
+One-Hot Encoding:
 Creates separate binary columns for each category. Suitable for categorical variables without any order.
 
-Dummy Encoding
+Dummy Encoding:
 Similar to One-Hot Encoding but removes one column to avoid redundancy in regression models.
 
 ---
