@@ -71,13 +71,20 @@ Similar to One-Hot Encoding but removes one column to avoid redundancy in regres
 
 ## Key Functions Used
 
-pd.DataFrame() – Create a DataFrame
-pd.read_csv() – Load dataset from CSV
-df.min(), df.max(), df.mean(), df.std() – Statistical operations
-pd.get_dummies() – One-Hot and Dummy encoding
-LabelEncoder() – Convert categorical values to numeric
-fit_transform() – Learn and apply transformation
-
+| Function / Command              | Library               | Purpose                      |
+| ------------------------------- | --------------------- | ---------------------------- |
+| pd.DataFrame()                  | Pandas                | Create DataFrame from data   |
+| pd.read_csv()                   | Pandas                | Load dataset from CSV file   |
+| df.min()                        | Pandas                | Find minimum value           |
+| df.max()                        | Pandas                | Find maximum value           |
+| df.mean()                       | Pandas                | Calculate average            |
+| df.std()                        | Pandas                | Calculate standard deviation |
+| pd.get_dummies()                | Pandas                | Perform One-Hot Encoding     |
+| pd.get_dummies(drop_first=True) | Pandas                | Perform Dummy Encoding       |
+| LabelEncoder()                  | sklearn.preprocessing | Create label encoder         |
+| fit()                           | sklearn               | Learn parameters             |
+| transform()                     | sklearn               | Apply transformation         |
+| fit_transform()                 | sklearn               | Learn + apply transformation |
 ---
 
 ## Procedure
@@ -158,11 +165,14 @@ fit() learns parameters
 transform() applies transformation
 fit_transform() performs both steps together
 
-Normalization Guide
 
-If bounded values are required: use Min-Max
-If data follows normal distribution: use Z-Score
-If quick scaling is needed: use Decimal Scaling
-For tree-based models: normalization is generally not required
+## Normalization Guide
+
+| Situation                        | Technique       |
+| -------------------------------- | --------------- |
+| Need values between 0 and 1      | Min-Max         |
+| Data follows normal distribution | Z-Score         |
+| Quick scaling required           | Decimal Scaling |
+| Tree-based models                | Not required    |
 
 ---
