@@ -1,13 +1,8 @@
-# **Advanced Data Visualization Techniques using Hierarchical, Interactive, and Multi-Dimensional Charts**
-
+# **Experiment 18-  Advanced Visualizations: Hierarchical, Interactive, and Multi-Dimensional Charts**
 ---
+## Aim
 
-# Objective
-
-The objective of this experiment is to explore and implement advanced visualization techniques that extend beyond traditional two-dimensional charts. The focus is on developing visual representations capable of handling hierarchical relationships, process flows, clustering patterns, and multi-dimensional datasets.
-This experiment aims to utilize modern Python-based visualization libraries such as **Plotly**, **SciPy**, and **Matplotlib-Venn** to generate dynamic and interactive visualizations. These visualizations improve data interpretation, reveal hidden relationships, and support better analytical decision-making.
-
----
+To understand and implement advanced data visualization techniques used for representing complex datasets using Python libraries such as **Plotly**, **SciPy**, and **Matplotlib-Venn**.
 
 # Introduction
 
