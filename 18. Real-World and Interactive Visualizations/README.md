@@ -1,10 +1,10 @@
 # **Experiment 18-  Advanced Visualizations: Hierarchical, Interactive, and Multi-Dimensional Charts**
----
+
 ## Aim
 
 To understand and implement advanced data visualization techniques used for representing complex datasets using Python libraries such as **Plotly**, **SciPy**, and **Matplotlib-Venn**.
 
-# Introduction
+## Introduction
 
 Data visualization plays a critical role in transforming raw numerical information into meaningful visual insights. While traditional charts such as bar graphs, pie charts, and line plots are useful for basic comparisons, they often fail to represent complex relationships found in real-world datasets.
 
@@ -22,9 +22,9 @@ This experiment demonstrates how specialized visualization methods can be used t
 
 ---
 
-# Theoretical Background
+## Theoretical Background
 
-## 1. Treemap Visualization
+### 1. Treemap Visualization
 
 A Treemap is a hierarchical visualization technique that represents data using nested rectangular regions. Each rectangle corresponds to a category, and its area is proportional to the numerical value it represents.
 
@@ -48,7 +48,7 @@ Treemaps are widely used in:
 
 ---
 
-## 2. Dendrogram and Hierarchical Clustering
+### 2. Dendrogram and Hierarchical Clustering
 
 A Dendrogram is a tree-like structure used to visualize hierarchical clustering results. It represents how individual data points group together step-by-step during clustering.
 
@@ -74,7 +74,7 @@ Dendrograms are commonly used in:
 
 ---
 
-## 3. Sankey Diagram
+### 3. Sankey Diagram
 
 A Sankey diagram is a specialized flow diagram used to represent the movement of quantities from one stage to another. The defining feature of a Sankey diagram is that the width of each flow path is proportional to the quantity it represents.
 
@@ -98,7 +98,7 @@ Sankey diagrams are widely used in:
 
 ---
 
-## 4. Radar (Spider) Chart
+### 4. Radar (Spider) Chart
 
 A Radar Chart, also known as a Spider Chart, is used to visualize multi-dimensional numerical data. Each variable is represented as an axis radiating outward from a central point. Data values are plotted on these axes and connected to form a polygon.
 
@@ -122,7 +122,7 @@ Radar charts are commonly used in:
 
 ---
 
-## 5. 3D Scatter Plot
+### 5. 3D Scatter Plot
 
 A 3D Scatter Plot extends traditional scatter plots by introducing a third dimension represented along the Z-axis. This allows simultaneous visualization of three continuous variables within a single graphical space.
 
@@ -146,7 +146,7 @@ A 3D Scatter Plot extends traditional scatter plots by introducing a third dimen
 
 ---
 
-## 6. Venn Diagram (Set Visualization)
+### 6. Venn Diagram (Set Visualization)
 
 A Venn Diagram visually represents logical relationships between sets. It uses overlapping circles to show common elements shared between groups.
 
@@ -170,7 +170,7 @@ Venn diagrams are used in:
 
 ---
 
-# Procedure
+## Procedure
 
 The experiment was carried out in the following structured steps:
 
@@ -225,9 +225,9 @@ Set intersections were visualized using overlapping circles to represent common 
 
 ---
 
-# Implementation Highlights
+## Implementation Highlights
 
-## 3D Scatter Plot using Plotly
+### 3D Scatter Plot using Plotly
 
 ```python
 fig = px.scatter_3d(df, 
@@ -240,7 +240,7 @@ fig.show()
 
 ---
 
-## Hierarchical Clustering using SciPy
+### Hierarchical Clustering using SciPy
 
 ```python
 from scipy.cluster.hierarchy import dendrogram, linkage
@@ -252,7 +252,7 @@ dendrogram(linked)
 
 ---
 
-## Sankey Diagram Flow Visualization
+### Sankey Diagram Flow Visualization
 
 ```python
 fig = go.Figure(data=[go.Sankey(
@@ -269,7 +269,7 @@ fig = go.Figure(data=[go.Sankey(
 
 ---
 
-# Key Functions Used
+## Key Functions Used
 
 | Function          | Library              | Purpose                                     |
 | ----------------- | -------------------- | ------------------------------------------- |
@@ -283,33 +283,33 @@ fig = go.Figure(data=[go.Sankey(
 
 ---
 
-# Applications
+## Applications
 
 Advanced visualization techniques are widely applied across various domains.
 
-## Education Technology
+### Education Technology
 
 Used to track student retention, performance patterns, and academic progression using Sankey diagrams and clustering techniques.
 
-## Human Resource Analytics
+### Human Resource Analytics
 
 Radar charts help identify skill gaps, measure employee competencies, and assist in recruitment decisions.
 
-## Financial Analysis
+### Financial Analysis
 
 Treemaps allow visualization of investment distribution across sectors, improving portfolio management.
 
-## Biological Research
+### Biological Research
 
 Dendrograms are useful in studying genetic similarities and evolutionary relationships among species.
 
-## Engineering Systems
+### Engineering Systems
 
 Flow diagrams help analyze system performance, resource distribution, and production workflows.
 
 ---
 
-# Results and Observations
+## Results and Observations
 
 The experiment demonstrated that advanced visualization techniques provide significantly greater analytical clarity compared to traditional charts.
 
@@ -319,7 +319,7 @@ Multi-dimensional charts enhanced understanding of relationships among multiple 
 
 ---
 
-# Outcome
+## Outcome
 
 By completing this experiment, the following outcomes were achieved:
 
@@ -331,8 +331,7 @@ By completing this experiment, the following outcomes were achieved:
 
 ---
 
-# Conclusion
-
+## Conclusion
 Advanced visualization techniques significantly enhance the process of data analysis by enabling the representation of complex relationships that cannot be captured using standard charts.
 By integrating tools such as Plotly and SciPy, it becomes possible to create dynamic and informative visual models capable of handling hierarchical, multi-dimensional, and flow-based datasets.
 These visualization methods not only improve analytical efficiency but also contribute to better communication of insights across scientific, engineering, and business applications.
