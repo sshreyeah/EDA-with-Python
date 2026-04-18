@@ -53,5 +53,8 @@ Several essential functions are utilized during the data preprocessing and analy
 
 ## 5. Conclusion
 The experiment demonstrates the complete pipeline of a data science project, from raw data ingestion and cleaning to advanced visualization. By transforming the COVID-19 dataset into structured formats and visual trends, we can effectively identify peak infection periods and compare the impact of the pandemic across various global regions.
+
+---
+
 <img width="4154" height="1216" alt="Image 17-04-26 at 2 43 PM" src="https://github.com/user-attachments/assets/df906d0e-31ac-4d99-b2ae-e8e6697e45bb" />
 <img width="4148" height="1188" alt="Image 17-04-26 at 2 44 PM" src="https://github.com/user-attachments/assets/a563f344-ad20-4b8c-85ef-6731ce74b288" />
